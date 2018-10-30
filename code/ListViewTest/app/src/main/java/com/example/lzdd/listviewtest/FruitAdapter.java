@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class FruitAdapter extends ArrayAdapter {
+public class FruitAdapter extends ArrayAdapter<Fruit> {
     private int resourceId;
     public FruitAdapter(Context context, int textViewResourceId, List<Fruit> object)
     {
